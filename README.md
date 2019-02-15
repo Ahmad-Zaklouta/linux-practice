@@ -1,7 +1,7 @@
 # linux-practice
 linux kernel and driver practice
 
-Resources:
+Resources: 
 
 - Linux Device Driver , Part 1
 https://www.youtube.com/watch?v=_8ZV-lSVs38&t=3s
