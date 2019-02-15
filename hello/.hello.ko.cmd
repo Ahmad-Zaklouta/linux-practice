@@ -1,0 +1,1 @@
+cmd_/home/yocto/linux-practice/hello/hello.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/yocto/linux-practice/hello/hello.ko /home/yocto/linux-practice/hello/hello.o /home/yocto/linux-practice/hello/hello.mod.o ;  true
