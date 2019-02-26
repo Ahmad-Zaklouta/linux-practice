@@ -6,3 +6,8 @@
 *.mod.c
 *.order
 *.symvers
+*.cache.mk
+.*.ko.cmd  
+.*.mod.o.cmd
+.*.o.cmd
+.tmp_versions
