@@ -101,6 +101,7 @@ static int __init hello_start(void)
 static void __exit hello_end(void)
 {
 	
+	unregister_chrdev(devnum, "hello");
 	printk(KERN_INFO "Goodbye, I hope I was helpfull\n");
 }
 
